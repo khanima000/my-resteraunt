@@ -1,0 +1,124 @@
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+    background-color: #949494;
+}
+/* basic css reset */
+.center{
+    color: white;
+    font-family: 'Aladin';font-size: 25px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h2{
+    color: #c0c0c0;
+    font-size: 130px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 3rem;
+    margin:auto;
+    font-family: 'Sofia';font-size: 82px;
+}
+.hero{
+    min-height:105vh;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/08/13/03/ai-generated-8302142_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+    background-color: skyblue;
+
+}
+.flex-wrapper{
+display:flex;
+justify-content: center;
+background-color: #1e1e1e;
+align-item: center;
+gap: 1rem;
+padding: 1rem;
+}
+nav a{
+    color: #f8f8f8;
+    font-family: sans-serif;
+    font-size: 1.50rem;
+    text-decoration:none;
+}
+nav a:hover{
+    color: purple;
+    font-weight:900;
+}
+.logo-text{
+    margin-right: auto;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+:root{
+    --main-color:#e55812;
+    --secondary-color:#262626;
+    --base-padding: 2rem;
+
+}
+.logo{
+    width:50px;
+    length:50px;
+
+}
+.title{
+    color: #374c45;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 3rem;
+    margin:auto;
+    font-family: 'Sofia';font-size: 82px;
+}
+.big{
+    font-family: 'Aladin';font-size:50px;
+}
+h3{
+    font-family: 'Sofia'; font-size:25px;
+}
+.bacon{
+    max-width: 40vw;
+    max-height: auto;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.burger{
+    max-width: 50vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.classic{
+    max-width: 50vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.impossible{
+    max-width: 50vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
